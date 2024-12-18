@@ -18,7 +18,10 @@ label {
 			}
 			
 		}
-	
+		tools {
+			maven 'maven-master' 
+		}
+		
 		stage ('MAVEN_BUILD') {
 		
 			steps {
