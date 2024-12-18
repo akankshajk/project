@@ -4,11 +4,13 @@ agent {
 label {
 		label "built-in"
 		customWorkspace "/mnt/builtin"
-	tools {
-			maven 'maven-master' 
-		}
+	
 		
 		}
+	
+		}
+	tools {
+			maven 'maven-master' 
 		}
 		
 	stages {
