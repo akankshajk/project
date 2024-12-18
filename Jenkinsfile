@@ -11,7 +11,7 @@ label {
 		}
 	tools {
 			maven 'maven-master' 
-			git 'default'
+			git 'Default'
 		}
 		stages{
 			stage('clone-repo')
