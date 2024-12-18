@@ -21,7 +21,7 @@ label {
 				}
 			}
 		}
-	stages {
+	        stages {
 		
 		stage ('CLEAN_OLD_M2') {
 			
@@ -29,7 +29,7 @@ label {
 				sh "rm -rf /root/.m2/repository"
 				
 			}
-			
+		}
 		}
 		stage ('MAVEN_BUILD') {
 		
