@@ -11,8 +11,16 @@ label {
 		}
 	tools {
 			maven 'maven-master' 
+			git 'default'
 		}
-		
+		stages{
+			stage('clone-repo')
+			{
+				steps{
+					git branch: 'master' , url: 'https://github.com/akankshajk/project.git'
+				}
+			}
+		}
 	stages {
 		
 		stage ('CLEAN_OLD_M2') {
