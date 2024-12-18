@@ -38,7 +38,7 @@ label {
 		
 				steps {
 						
-						sh "scp -r //mnt/masterwar/target/LoginWebApp.war akanksha@172.31.41.180:/mnt/server/apache-tomcat-9.0.98/webapps"
+  	              sh "scp -r //mnt/masterwar/target/LoginWebApp.war akanksha@172.31.41.180:/mnt/server/apache-tomcat-9.0.98/webapps"
 
 						}
 				
