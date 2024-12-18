@@ -4,6 +4,9 @@ agent {
 label {
 		label "built-in"
 		customWorkspace "/mnt/builtin"
+	tools {
+			maven 'maven-master' 
+		}
 		
 		}
 		}
@@ -18,10 +21,6 @@ label {
 			}
 			
 		}
-		tools {
-			maven 'maven-master' 
-		}
-		
 		stage ('MAVEN_BUILD') {
 		
 			steps {
